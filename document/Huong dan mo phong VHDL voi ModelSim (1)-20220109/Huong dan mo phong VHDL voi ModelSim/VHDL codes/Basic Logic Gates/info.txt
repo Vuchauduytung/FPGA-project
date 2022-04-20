@@ -1,0 +1,12 @@
+Basic Logic Gates 
+(ESD Chapter 2: Figure 2.3)
+
+Every VHDL design description consists of at least one entity / architecture pair, 
+or one entity with multiple architectures. 
+
+The entity section of the HDL design is used to declare the I/O ports of the circuit, 
+while the description code resides within architecture portion. 
+
+Standardized design libraries are typically used and are included prior to the entity declaration. 
+
+This is accomplished by including the code "library ieee;" and "use ieee.std_logic_1164.all;".

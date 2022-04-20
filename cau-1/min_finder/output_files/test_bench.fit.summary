@@ -1,0 +1,11 @@
+I/O Assignment Analysis Status : Successful - Wed Apr 20 11:47:14 2022
+Quartus Prime Version : 21.1.0 Build 842 10/21/2021 SJ Lite Edition
+Revision Name : test_bench
+Top-level Entity Name : test_bench
+Family : Cyclone V
+Device : 5CSEMA5F31C6
+Timing Models : Final
+Total pins : 24 / 457 ( 5 % )
+Total virtual pins : 0
+Total PLLs : 0 / 6 ( 0 % )
+Total DLLs : 0 / 4 ( 0 % )

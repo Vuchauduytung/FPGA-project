@@ -1,0 +1,4674 @@
+|test_bench
+min1_sol1[0] <= min_finder_1:test1.port16
+min1_sol1[1] <= min_finder_1:test1.port16
+min1_sol1[2] <= min_finder_1:test1.port16
+min1_sol1[3] <= min_finder_1:test1.port16
+min2_sol1[0] <= min_finder_1:test1.port17
+min2_sol1[1] <= min_finder_1:test1.port17
+min2_sol1[2] <= min_finder_1:test1.port17
+min2_sol1[3] <= min_finder_1:test1.port17
+index_min1_sol1[0] <= min_finder_1:test1.port18
+index_min1_sol1[1] <= min_finder_1:test1.port18
+index_min1_sol1[2] <= min_finder_1:test1.port18
+index_min1_sol1[3] <= min_finder_1:test1.port18
+min1_sol2[0] <= min_finder_2:test2.port16
+min1_sol2[1] <= min_finder_2:test2.port16
+min1_sol2[2] <= min_finder_2:test2.port16
+min1_sol2[3] <= min_finder_2:test2.port16
+min2_sol2[0] <= min_finder_2:test2.port17
+min2_sol2[1] <= min_finder_2:test2.port17
+min2_sol2[2] <= min_finder_2:test2.port17
+min2_sol2[3] <= min_finder_2:test2.port17
+index_min1_sol2[0] <= min_finder_2:test2.port18
+index_min1_sol2[1] <= min_finder_2:test2.port18
+index_min1_sol2[2] <= min_finder_2:test2.port18
+index_min1_sol2[3] <= min_finder_2:test2.port18
+
+
+|test_bench|min_finder_1:test1
+I0[0] => LessThan0.IN8
+I0[0] => min1.DATAB
+I0[1] => LessThan0.IN7
+I0[1] => min1.DATAB
+I0[2] => LessThan0.IN6
+I0[2] => min1.DATAB
+I0[3] => LessThan0.IN5
+I0[3] => min1.DATAB
+I1[0] => LessThan1.IN8
+I1[0] => LessThan2.IN8
+I1[0] => min2.DATAB
+I1[0] => min1.DATAB
+I1[1] => LessThan1.IN7
+I1[1] => LessThan2.IN7
+I1[1] => min2.DATAB
+I1[1] => min1.DATAB
+I1[2] => LessThan1.IN6
+I1[2] => LessThan2.IN6
+I1[2] => min2.DATAB
+I1[2] => min1.DATAB
+I1[3] => LessThan1.IN5
+I1[3] => LessThan2.IN5
+I1[3] => min2.DATAB
+I1[3] => min1.DATAB
+I2[0] => LessThan3.IN8
+I2[0] => LessThan4.IN8
+I2[0] => min2.DATAB
+I2[0] => min1.DATAB
+I2[1] => LessThan3.IN7
+I2[1] => LessThan4.IN7
+I2[1] => min2.DATAB
+I2[1] => min1.DATAB
+I2[2] => LessThan3.IN6
+I2[2] => LessThan4.IN6
+I2[2] => min2.DATAB
+I2[2] => min1.DATAB
+I2[3] => LessThan3.IN5
+I2[3] => LessThan4.IN5
+I2[3] => min2.DATAB
+I2[3] => min1.DATAB
+I3[0] => LessThan5.IN8
+I3[0] => LessThan6.IN8
+I3[0] => min2.DATAB
+I3[0] => min1.DATAB
+I3[1] => LessThan5.IN7
+I3[1] => LessThan6.IN7
+I3[1] => min2.DATAB
+I3[1] => min1.DATAB
+I3[2] => LessThan5.IN6
+I3[2] => LessThan6.IN6
+I3[2] => min2.DATAB
+I3[2] => min1.DATAB
+I3[3] => LessThan5.IN5
+I3[3] => LessThan6.IN5
+I3[3] => min2.DATAB
+I3[3] => min1.DATAB
+I4[0] => LessThan7.IN8
+I4[0] => LessThan8.IN8
+I4[0] => min2.DATAB
+I4[0] => min1.DATAB
+I4[1] => LessThan7.IN7
+I4[1] => LessThan8.IN7
+I4[1] => min2.DATAB
+I4[1] => min1.DATAB
+I4[2] => LessThan7.IN6
+I4[2] => LessThan8.IN6
+I4[2] => min2.DATAB
+I4[2] => min1.DATAB
+I4[3] => LessThan7.IN5
+I4[3] => LessThan8.IN5
+I4[3] => min2.DATAB
+I4[3] => min1.DATAB
+I5[0] => LessThan9.IN8
+I5[0] => LessThan10.IN8
+I5[0] => min2.DATAB
+I5[0] => min1.DATAB
+I5[1] => LessThan9.IN7
+I5[1] => LessThan10.IN7
+I5[1] => min2.DATAB
+I5[1] => min1.DATAB
+I5[2] => LessThan9.IN6
+I5[2] => LessThan10.IN6
+I5[2] => min2.DATAB
+I5[2] => min1.DATAB
+I5[3] => LessThan9.IN5
+I5[3] => LessThan10.IN5
+I5[3] => min2.DATAB
+I5[3] => min1.DATAB
+I6[0] => LessThan11.IN8
+I6[0] => LessThan12.IN8
+I6[0] => min2.DATAB
+I6[0] => min1.DATAB
+I6[1] => LessThan11.IN7
+I6[1] => LessThan12.IN7
+I6[1] => min2.DATAB
+I6[1] => min1.DATAB
+I6[2] => LessThan11.IN6
+I6[2] => LessThan12.IN6
+I6[2] => min2.DATAB
+I6[2] => min1.DATAB
+I6[3] => LessThan11.IN5
+I6[3] => LessThan12.IN5
+I6[3] => min2.DATAB
+I6[3] => min1.DATAB
+I7[0] => LessThan13.IN8
+I7[0] => LessThan14.IN8
+I7[0] => min2.DATAB
+I7[0] => min1.DATAB
+I7[1] => LessThan13.IN7
+I7[1] => LessThan14.IN7
+I7[1] => min2.DATAB
+I7[1] => min1.DATAB
+I7[2] => LessThan13.IN6
+I7[2] => LessThan14.IN6
+I7[2] => min2.DATAB
+I7[2] => min1.DATAB
+I7[3] => LessThan13.IN5
+I7[3] => LessThan14.IN5
+I7[3] => min2.DATAB
+I7[3] => min1.DATAB
+I8[0] => LessThan15.IN8
+I8[0] => LessThan16.IN8
+I8[0] => min2.DATAB
+I8[0] => min1.DATAB
+I8[1] => LessThan15.IN7
+I8[1] => LessThan16.IN7
+I8[1] => min2.DATAB
+I8[1] => min1.DATAB
+I8[2] => LessThan15.IN6
+I8[2] => LessThan16.IN6
+I8[2] => min2.DATAB
+I8[2] => min1.DATAB
+I8[3] => LessThan15.IN5
+I8[3] => LessThan16.IN5
+I8[3] => min2.DATAB
+I8[3] => min1.DATAB
+I9[0] => LessThan17.IN8
+I9[0] => LessThan18.IN8
+I9[0] => min2.DATAB
+I9[0] => min1.DATAB
+I9[1] => LessThan17.IN7
+I9[1] => LessThan18.IN7
+I9[1] => min2.DATAB
+I9[1] => min1.DATAB
+I9[2] => LessThan17.IN6
+I9[2] => LessThan18.IN6
+I9[2] => min2.DATAB
+I9[2] => min1.DATAB
+I9[3] => LessThan17.IN5
+I9[3] => LessThan18.IN5
+I9[3] => min2.DATAB
+I9[3] => min1.DATAB
+I10[0] => LessThan19.IN8
+I10[0] => LessThan20.IN8
+I10[0] => min2.DATAB
+I10[0] => min1.DATAB
+I10[1] => LessThan19.IN7
+I10[1] => LessThan20.IN7
+I10[1] => min2.DATAB
+I10[1] => min1.DATAB
+I10[2] => LessThan19.IN6
+I10[2] => LessThan20.IN6
+I10[2] => min2.DATAB
+I10[2] => min1.DATAB
+I10[3] => LessThan19.IN5
+I10[3] => LessThan20.IN5
+I10[3] => min2.DATAB
+I10[3] => min1.DATAB
+I11[0] => LessThan21.IN8
+I11[0] => LessThan22.IN8
+I11[0] => min2.DATAB
+I11[0] => min1.DATAB
+I11[1] => LessThan21.IN7
+I11[1] => LessThan22.IN7
+I11[1] => min2.DATAB
+I11[1] => min1.DATAB
+I11[2] => LessThan21.IN6
+I11[2] => LessThan22.IN6
+I11[2] => min2.DATAB
+I11[2] => min1.DATAB
+I11[3] => LessThan21.IN5
+I11[3] => LessThan22.IN5
+I11[3] => min2.DATAB
+I11[3] => min1.DATAB
+I12[0] => LessThan23.IN8
+I12[0] => LessThan24.IN8
+I12[0] => min2.DATAB
+I12[0] => min1.DATAB
+I12[1] => LessThan23.IN7
+I12[1] => LessThan24.IN7
+I12[1] => min2.DATAB
+I12[1] => min1.DATAB
+I12[2] => LessThan23.IN6
+I12[2] => LessThan24.IN6
+I12[2] => min2.DATAB
+I12[2] => min1.DATAB
+I12[3] => LessThan23.IN5
+I12[3] => LessThan24.IN5
+I12[3] => min2.DATAB
+I12[3] => min1.DATAB
+I13[0] => LessThan25.IN8
+I13[0] => LessThan26.IN8
+I13[0] => min2.DATAB
+I13[0] => min1.DATAB
+I13[1] => LessThan25.IN7
+I13[1] => LessThan26.IN7
+I13[1] => min2.DATAB
+I13[1] => min1.DATAB
+I13[2] => LessThan25.IN6
+I13[2] => LessThan26.IN6
+I13[2] => min2.DATAB
+I13[2] => min1.DATAB
+I13[3] => LessThan25.IN5
+I13[3] => LessThan26.IN5
+I13[3] => min2.DATAB
+I13[3] => min1.DATAB
+I14[0] => LessThan27.IN8
+I14[0] => LessThan28.IN8
+I14[0] => min2.DATAB
+I14[0] => min1.DATAB
+I14[1] => LessThan27.IN7
+I14[1] => LessThan28.IN7
+I14[1] => min2.DATAB
+I14[1] => min1.DATAB
+I14[2] => LessThan27.IN6
+I14[2] => LessThan28.IN6
+I14[2] => min2.DATAB
+I14[2] => min1.DATAB
+I14[3] => LessThan27.IN5
+I14[3] => LessThan28.IN5
+I14[3] => min2.DATAB
+I14[3] => min1.DATAB
+I15[0] => LessThan29.IN8
+I15[0] => LessThan30.IN8
+I15[0] => min2.DATAB
+I15[0] => min1.DATAB
+I15[1] => LessThan29.IN7
+I15[1] => LessThan30.IN7
+I15[1] => min2.DATAB
+I15[1] => min1.DATAB
+I15[2] => LessThan29.IN6
+I15[2] => LessThan30.IN6
+I15[2] => min2.DATAB
+I15[2] => min1.DATAB
+I15[3] => LessThan29.IN5
+I15[3] => LessThan30.IN5
+I15[3] => min2.DATAB
+I15[3] => min1.DATAB
+min1[0] <= min1.DB_MAX_OUTPUT_PORT_TYPE
+min1[1] <= min1.DB_MAX_OUTPUT_PORT_TYPE
+min1[2] <= min1.DB_MAX_OUTPUT_PORT_TYPE
+min1[3] <= min1.DB_MAX_OUTPUT_PORT_TYPE
+min2[0] <= min2.DB_MAX_OUTPUT_PORT_TYPE
+min2[1] <= min2.DB_MAX_OUTPUT_PORT_TYPE
+min2[2] <= min2.DB_MAX_OUTPUT_PORT_TYPE
+min2[3] <= min2.DB_MAX_OUTPUT_PORT_TYPE
+index_min1[0] <= index_min1[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+index_min1[1] <= index_min1[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+index_min1[2] <= index_min1[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+index_min1[3] <= index_min1[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2
+I0[0] => arr[0].IN2
+I0[1] => arr[1].IN2
+I0[2] => arr[2].IN2
+I0[3] => arr[3].IN2
+I1[0] => arr[4].IN2
+I1[1] => arr[5].IN2
+I1[2] => arr[6].IN2
+I1[3] => arr[7].IN2
+I2[0] => arr[8].IN2
+I2[1] => arr[9].IN2
+I2[2] => arr[10].IN2
+I2[3] => arr[11].IN2
+I3[0] => arr[12].IN2
+I3[1] => arr[13].IN2
+I3[2] => arr[14].IN2
+I3[3] => arr[15].IN2
+I4[0] => arr[16].IN2
+I4[1] => arr[17].IN2
+I4[2] => arr[18].IN2
+I4[3] => arr[19].IN2
+I5[0] => arr[20].IN2
+I5[1] => arr[21].IN2
+I5[2] => arr[22].IN2
+I5[3] => arr[23].IN2
+I6[0] => arr[24].IN2
+I6[1] => arr[25].IN2
+I6[2] => arr[26].IN2
+I6[3] => arr[27].IN2
+I7[0] => arr[28].IN2
+I7[1] => arr[29].IN2
+I7[2] => arr[30].IN2
+I7[3] => arr[31].IN2
+I8[0] => arr[32].IN2
+I8[1] => arr[33].IN2
+I8[2] => arr[34].IN2
+I8[3] => arr[35].IN2
+I9[0] => arr[36].IN2
+I9[1] => arr[37].IN2
+I9[2] => arr[38].IN2
+I9[3] => arr[39].IN2
+I10[0] => arr[40].IN2
+I10[1] => arr[41].IN2
+I10[2] => arr[42].IN2
+I10[3] => arr[43].IN2
+I11[0] => arr[44].IN2
+I11[1] => arr[45].IN2
+I11[2] => arr[46].IN2
+I11[3] => arr[47].IN2
+I12[0] => arr[48].IN2
+I12[1] => arr[49].IN2
+I12[2] => arr[50].IN2
+I12[3] => arr[51].IN2
+I13[0] => arr[52].IN2
+I13[1] => arr[53].IN2
+I13[2] => arr[54].IN2
+I13[3] => arr[55].IN2
+I14[0] => arr[56].IN2
+I14[1] => arr[57].IN2
+I14[2] => arr[58].IN2
+I14[3] => arr[59].IN2
+I15[0] => arr[60].IN2
+I15[1] => arr[61].IN2
+I15[2] => arr[62].IN2
+I15[3] => arr[63].IN2
+min1[0] <= find_min_in_arr:fma1.port1
+min1[1] <= find_min_in_arr:fma1.port1
+min1[2] <= find_min_in_arr:fma1.port1
+min1[3] <= find_min_in_arr:fma1.port1
+min2[0] <= find_min_in_arr:fma2.port1
+min2[1] <= find_min_in_arr:fma2.port1
+min2[2] <= find_min_in_arr:fma2.port1
+min2[3] <= find_min_in_arr:fma2.port1
+index_min1[0] <= index_min1[0].DB_MAX_OUTPUT_PORT_TYPE
+index_min1[1] <= index_min1[1].DB_MAX_OUTPUT_PORT_TYPE
+index_min1[2] <= index_min1[2].DB_MAX_OUTPUT_PORT_TYPE
+index_min1[3] <= index_min1[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1
+arr[0] => I0[0].IN1
+arr[1] => I0[1].IN1
+arr[2] => I0[2].IN1
+arr[3] => I0[3].IN1
+arr[4] => I1[0].IN1
+arr[5] => I1[1].IN1
+arr[6] => I1[2].IN1
+arr[7] => I1[3].IN1
+arr[8] => I2[0].IN1
+arr[9] => I2[1].IN1
+arr[10] => I2[2].IN1
+arr[11] => I2[3].IN1
+arr[12] => I3[0].IN1
+arr[13] => I3[1].IN1
+arr[14] => I3[2].IN1
+arr[15] => I3[3].IN1
+arr[16] => I4[0].IN1
+arr[17] => I4[1].IN1
+arr[18] => I4[2].IN1
+arr[19] => I4[3].IN1
+arr[20] => I5[0].IN1
+arr[21] => I5[1].IN1
+arr[22] => I5[2].IN1
+arr[23] => I5[3].IN1
+arr[24] => I6[0].IN1
+arr[25] => I6[1].IN1
+arr[26] => I6[2].IN1
+arr[27] => I6[3].IN1
+arr[28] => I7[0].IN1
+arr[29] => I7[1].IN1
+arr[30] => I7[2].IN1
+arr[31] => I7[3].IN1
+arr[32] => I8[0].IN1
+arr[33] => I8[1].IN1
+arr[34] => I8[2].IN1
+arr[35] => I8[3].IN1
+arr[36] => I9[0].IN1
+arr[37] => I9[1].IN1
+arr[38] => I9[2].IN1
+arr[39] => I9[3].IN1
+arr[40] => I10[0].IN1
+arr[41] => I10[1].IN1
+arr[42] => I10[2].IN1
+arr[43] => I10[3].IN1
+arr[44] => I11[0].IN1
+arr[45] => I11[1].IN1
+arr[46] => I11[2].IN1
+arr[47] => I11[3].IN1
+arr[48] => I12[0].IN1
+arr[49] => I12[1].IN1
+arr[50] => I12[2].IN1
+arr[51] => I12[3].IN1
+arr[52] => I13[0].IN1
+arr[53] => I13[1].IN1
+arr[54] => I13[2].IN1
+arr[55] => I13[3].IN1
+arr[56] => I14[0].IN1
+arr[57] => I14[1].IN1
+arr[58] => I14[2].IN1
+arr[59] => I14[3].IN1
+arr[60] => I15[0].IN1
+arr[61] => I15[1].IN1
+arr[62] => I15[2].IN1
+arr[63] => I15[3].IN1
+min[0] <= find_min_index:match_d.port4
+min[1] <= find_min_index:match_d.port4
+min[2] <= find_min_index:match_d.port4
+min[3] <= find_min_index:match_d.port4
+index_min[0] <= find_min_index:match_d.port5
+index_min[1] <= find_min_index:match_d.port5
+index_min[2] <= find_min_index:match_d.port5
+index_min[3] <= find_min_index:match_d.port5
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a0
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+idA[0] => id_out.DATAA
+idA[1] => id_out.DATAA
+idA[2] => id_out.DATAA
+idA[3] => id_out.DATAA
+idB[0] => id_out.DATAB
+idB[1] => id_out.DATAB
+idB[2] => id_out.DATAB
+idB[3] => id_out.DATAB
+min_val[0] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[1] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[2] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[3] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+id_out[0] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[1] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[2] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[3] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a0|compare_4bit:compare_4bit_1
+A[0] => A0[0].IN1
+A[1] => A0[1].IN1
+A[2] => A1[0].IN1
+A[3] => A1[1].IN1
+B[0] => B0[0].IN1
+B[1] => B0[1].IN1
+B[2] => B1[0].IN1
+B[3] => B1[1].IN1
+Oe <= compare_result:cr.port2
+Og <= compare_result:cr.port3
+Ol <= compare_result:cr.port4
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a0|compare_4bit:compare_4bit_1|compare_2bit:compare0
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a0|compare_4bit:compare_4bit_1|compare_2bit:compare1
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a0|compare_4bit:compare_4bit_1|simple_result:sR0
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a0|compare_4bit:compare_4bit_1|simple_result:sR1
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a0|compare_4bit:compare_4bit_1|compare_result:cr
+R1[0] => Oe.IN0
+R1[0] => Ol.IN0
+R1[0] => Ol.IN0
+R1[0] => Og.IN0
+R1[1] => Og.IN1
+R1[1] => Ol.IN1
+R1[1] => Oe.IN1
+R0[0] => Oe.IN1
+R0[0] => Ol.IN1
+R0[0] => Og.IN1
+R0[1] => Og.IN1
+R0[1] => Ol.IN1
+R0[1] => Oe.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a1
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+idA[0] => id_out.DATAA
+idA[1] => id_out.DATAA
+idA[2] => id_out.DATAA
+idA[3] => id_out.DATAA
+idB[0] => id_out.DATAB
+idB[1] => id_out.DATAB
+idB[2] => id_out.DATAB
+idB[3] => id_out.DATAB
+min_val[0] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[1] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[2] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[3] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+id_out[0] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[1] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[2] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[3] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a1|compare_4bit:compare_4bit_1
+A[0] => A0[0].IN1
+A[1] => A0[1].IN1
+A[2] => A1[0].IN1
+A[3] => A1[1].IN1
+B[0] => B0[0].IN1
+B[1] => B0[1].IN1
+B[2] => B1[0].IN1
+B[3] => B1[1].IN1
+Oe <= compare_result:cr.port2
+Og <= compare_result:cr.port3
+Ol <= compare_result:cr.port4
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a1|compare_4bit:compare_4bit_1|compare_2bit:compare0
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a1|compare_4bit:compare_4bit_1|compare_2bit:compare1
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a1|compare_4bit:compare_4bit_1|simple_result:sR0
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a1|compare_4bit:compare_4bit_1|simple_result:sR1
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a1|compare_4bit:compare_4bit_1|compare_result:cr
+R1[0] => Oe.IN0
+R1[0] => Ol.IN0
+R1[0] => Ol.IN0
+R1[0] => Og.IN0
+R1[1] => Og.IN1
+R1[1] => Ol.IN1
+R1[1] => Oe.IN1
+R0[0] => Oe.IN1
+R0[0] => Ol.IN1
+R0[0] => Og.IN1
+R0[1] => Og.IN1
+R0[1] => Ol.IN1
+R0[1] => Oe.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a2
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+idA[0] => id_out.DATAA
+idA[1] => id_out.DATAA
+idA[2] => id_out.DATAA
+idA[3] => id_out.DATAA
+idB[0] => id_out.DATAB
+idB[1] => id_out.DATAB
+idB[2] => id_out.DATAB
+idB[3] => id_out.DATAB
+min_val[0] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[1] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[2] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[3] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+id_out[0] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[1] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[2] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[3] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a2|compare_4bit:compare_4bit_1
+A[0] => A0[0].IN1
+A[1] => A0[1].IN1
+A[2] => A1[0].IN1
+A[3] => A1[1].IN1
+B[0] => B0[0].IN1
+B[1] => B0[1].IN1
+B[2] => B1[0].IN1
+B[3] => B1[1].IN1
+Oe <= compare_result:cr.port2
+Og <= compare_result:cr.port3
+Ol <= compare_result:cr.port4
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a2|compare_4bit:compare_4bit_1|compare_2bit:compare0
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a2|compare_4bit:compare_4bit_1|compare_2bit:compare1
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a2|compare_4bit:compare_4bit_1|simple_result:sR0
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a2|compare_4bit:compare_4bit_1|simple_result:sR1
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a2|compare_4bit:compare_4bit_1|compare_result:cr
+R1[0] => Oe.IN0
+R1[0] => Ol.IN0
+R1[0] => Ol.IN0
+R1[0] => Og.IN0
+R1[1] => Og.IN1
+R1[1] => Ol.IN1
+R1[1] => Oe.IN1
+R0[0] => Oe.IN1
+R0[0] => Ol.IN1
+R0[0] => Og.IN1
+R0[1] => Og.IN1
+R0[1] => Ol.IN1
+R0[1] => Oe.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a3
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+idA[0] => id_out.DATAA
+idA[1] => id_out.DATAA
+idA[2] => id_out.DATAA
+idA[3] => id_out.DATAA
+idB[0] => id_out.DATAB
+idB[1] => id_out.DATAB
+idB[2] => id_out.DATAB
+idB[3] => id_out.DATAB
+min_val[0] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[1] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[2] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[3] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+id_out[0] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[1] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[2] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[3] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a3|compare_4bit:compare_4bit_1
+A[0] => A0[0].IN1
+A[1] => A0[1].IN1
+A[2] => A1[0].IN1
+A[3] => A1[1].IN1
+B[0] => B0[0].IN1
+B[1] => B0[1].IN1
+B[2] => B1[0].IN1
+B[3] => B1[1].IN1
+Oe <= compare_result:cr.port2
+Og <= compare_result:cr.port3
+Ol <= compare_result:cr.port4
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a3|compare_4bit:compare_4bit_1|compare_2bit:compare0
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a3|compare_4bit:compare_4bit_1|compare_2bit:compare1
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a3|compare_4bit:compare_4bit_1|simple_result:sR0
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a3|compare_4bit:compare_4bit_1|simple_result:sR1
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a3|compare_4bit:compare_4bit_1|compare_result:cr
+R1[0] => Oe.IN0
+R1[0] => Ol.IN0
+R1[0] => Ol.IN0
+R1[0] => Og.IN0
+R1[1] => Og.IN1
+R1[1] => Ol.IN1
+R1[1] => Oe.IN1
+R0[0] => Oe.IN1
+R0[0] => Ol.IN1
+R0[0] => Og.IN1
+R0[1] => Og.IN1
+R0[1] => Ol.IN1
+R0[1] => Oe.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a4
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+idA[0] => id_out.DATAA
+idA[1] => id_out.DATAA
+idA[2] => id_out.DATAA
+idA[3] => id_out.DATAA
+idB[0] => id_out.DATAB
+idB[1] => id_out.DATAB
+idB[2] => id_out.DATAB
+idB[3] => id_out.DATAB
+min_val[0] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[1] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[2] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[3] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+id_out[0] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[1] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[2] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[3] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a4|compare_4bit:compare_4bit_1
+A[0] => A0[0].IN1
+A[1] => A0[1].IN1
+A[2] => A1[0].IN1
+A[3] => A1[1].IN1
+B[0] => B0[0].IN1
+B[1] => B0[1].IN1
+B[2] => B1[0].IN1
+B[3] => B1[1].IN1
+Oe <= compare_result:cr.port2
+Og <= compare_result:cr.port3
+Ol <= compare_result:cr.port4
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a4|compare_4bit:compare_4bit_1|compare_2bit:compare0
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a4|compare_4bit:compare_4bit_1|compare_2bit:compare1
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a4|compare_4bit:compare_4bit_1|simple_result:sR0
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a4|compare_4bit:compare_4bit_1|simple_result:sR1
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a4|compare_4bit:compare_4bit_1|compare_result:cr
+R1[0] => Oe.IN0
+R1[0] => Ol.IN0
+R1[0] => Ol.IN0
+R1[0] => Og.IN0
+R1[1] => Og.IN1
+R1[1] => Ol.IN1
+R1[1] => Oe.IN1
+R0[0] => Oe.IN1
+R0[0] => Ol.IN1
+R0[0] => Og.IN1
+R0[1] => Og.IN1
+R0[1] => Ol.IN1
+R0[1] => Oe.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a5
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+idA[0] => id_out.DATAA
+idA[1] => id_out.DATAA
+idA[2] => id_out.DATAA
+idA[3] => id_out.DATAA
+idB[0] => id_out.DATAB
+idB[1] => id_out.DATAB
+idB[2] => id_out.DATAB
+idB[3] => id_out.DATAB
+min_val[0] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[1] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[2] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[3] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+id_out[0] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[1] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[2] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[3] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a5|compare_4bit:compare_4bit_1
+A[0] => A0[0].IN1
+A[1] => A0[1].IN1
+A[2] => A1[0].IN1
+A[3] => A1[1].IN1
+B[0] => B0[0].IN1
+B[1] => B0[1].IN1
+B[2] => B1[0].IN1
+B[3] => B1[1].IN1
+Oe <= compare_result:cr.port2
+Og <= compare_result:cr.port3
+Ol <= compare_result:cr.port4
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a5|compare_4bit:compare_4bit_1|compare_2bit:compare0
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a5|compare_4bit:compare_4bit_1|compare_2bit:compare1
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a5|compare_4bit:compare_4bit_1|simple_result:sR0
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a5|compare_4bit:compare_4bit_1|simple_result:sR1
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a5|compare_4bit:compare_4bit_1|compare_result:cr
+R1[0] => Oe.IN0
+R1[0] => Ol.IN0
+R1[0] => Ol.IN0
+R1[0] => Og.IN0
+R1[1] => Og.IN1
+R1[1] => Ol.IN1
+R1[1] => Oe.IN1
+R0[0] => Oe.IN1
+R0[0] => Ol.IN1
+R0[0] => Og.IN1
+R0[1] => Og.IN1
+R0[1] => Ol.IN1
+R0[1] => Oe.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a6
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+idA[0] => id_out.DATAA
+idA[1] => id_out.DATAA
+idA[2] => id_out.DATAA
+idA[3] => id_out.DATAA
+idB[0] => id_out.DATAB
+idB[1] => id_out.DATAB
+idB[2] => id_out.DATAB
+idB[3] => id_out.DATAB
+min_val[0] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[1] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[2] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[3] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+id_out[0] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[1] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[2] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[3] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a6|compare_4bit:compare_4bit_1
+A[0] => A0[0].IN1
+A[1] => A0[1].IN1
+A[2] => A1[0].IN1
+A[3] => A1[1].IN1
+B[0] => B0[0].IN1
+B[1] => B0[1].IN1
+B[2] => B1[0].IN1
+B[3] => B1[1].IN1
+Oe <= compare_result:cr.port2
+Og <= compare_result:cr.port3
+Ol <= compare_result:cr.port4
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a6|compare_4bit:compare_4bit_1|compare_2bit:compare0
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a6|compare_4bit:compare_4bit_1|compare_2bit:compare1
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a6|compare_4bit:compare_4bit_1|simple_result:sR0
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a6|compare_4bit:compare_4bit_1|simple_result:sR1
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a6|compare_4bit:compare_4bit_1|compare_result:cr
+R1[0] => Oe.IN0
+R1[0] => Ol.IN0
+R1[0] => Ol.IN0
+R1[0] => Og.IN0
+R1[1] => Og.IN1
+R1[1] => Ol.IN1
+R1[1] => Oe.IN1
+R0[0] => Oe.IN1
+R0[0] => Ol.IN1
+R0[0] => Og.IN1
+R0[1] => Og.IN1
+R0[1] => Ol.IN1
+R0[1] => Oe.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a7
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+idA[0] => id_out.DATAA
+idA[1] => id_out.DATAA
+idA[2] => id_out.DATAA
+idA[3] => id_out.DATAA
+idB[0] => id_out.DATAB
+idB[1] => id_out.DATAB
+idB[2] => id_out.DATAB
+idB[3] => id_out.DATAB
+min_val[0] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[1] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[2] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[3] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+id_out[0] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[1] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[2] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[3] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a7|compare_4bit:compare_4bit_1
+A[0] => A0[0].IN1
+A[1] => A0[1].IN1
+A[2] => A1[0].IN1
+A[3] => A1[1].IN1
+B[0] => B0[0].IN1
+B[1] => B0[1].IN1
+B[2] => B1[0].IN1
+B[3] => B1[1].IN1
+Oe <= compare_result:cr.port2
+Og <= compare_result:cr.port3
+Ol <= compare_result:cr.port4
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a7|compare_4bit:compare_4bit_1|compare_2bit:compare0
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a7|compare_4bit:compare_4bit_1|compare_2bit:compare1
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a7|compare_4bit:compare_4bit_1|simple_result:sR0
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a7|compare_4bit:compare_4bit_1|simple_result:sR1
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_a7|compare_4bit:compare_4bit_1|compare_result:cr
+R1[0] => Oe.IN0
+R1[0] => Ol.IN0
+R1[0] => Ol.IN0
+R1[0] => Og.IN0
+R1[1] => Og.IN1
+R1[1] => Ol.IN1
+R1[1] => Oe.IN1
+R0[0] => Oe.IN1
+R0[0] => Ol.IN1
+R0[0] => Og.IN1
+R0[1] => Og.IN1
+R0[1] => Ol.IN1
+R0[1] => Oe.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_b0
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+idA[0] => id_out.DATAA
+idA[1] => id_out.DATAA
+idA[2] => id_out.DATAA
+idA[3] => id_out.DATAA
+idB[0] => id_out.DATAB
+idB[1] => id_out.DATAB
+idB[2] => id_out.DATAB
+idB[3] => id_out.DATAB
+min_val[0] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[1] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[2] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[3] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+id_out[0] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[1] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[2] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[3] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_b0|compare_4bit:compare_4bit_1
+A[0] => A0[0].IN1
+A[1] => A0[1].IN1
+A[2] => A1[0].IN1
+A[3] => A1[1].IN1
+B[0] => B0[0].IN1
+B[1] => B0[1].IN1
+B[2] => B1[0].IN1
+B[3] => B1[1].IN1
+Oe <= compare_result:cr.port2
+Og <= compare_result:cr.port3
+Ol <= compare_result:cr.port4
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_b0|compare_4bit:compare_4bit_1|compare_2bit:compare0
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_b0|compare_4bit:compare_4bit_1|compare_2bit:compare1
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_b0|compare_4bit:compare_4bit_1|simple_result:sR0
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_b0|compare_4bit:compare_4bit_1|simple_result:sR1
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_b0|compare_4bit:compare_4bit_1|compare_result:cr
+R1[0] => Oe.IN0
+R1[0] => Ol.IN0
+R1[0] => Ol.IN0
+R1[0] => Og.IN0
+R1[1] => Og.IN1
+R1[1] => Ol.IN1
+R1[1] => Oe.IN1
+R0[0] => Oe.IN1
+R0[0] => Ol.IN1
+R0[0] => Og.IN1
+R0[1] => Og.IN1
+R0[1] => Ol.IN1
+R0[1] => Oe.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_b1
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+idA[0] => id_out.DATAA
+idA[1] => id_out.DATAA
+idA[2] => id_out.DATAA
+idA[3] => id_out.DATAA
+idB[0] => id_out.DATAB
+idB[1] => id_out.DATAB
+idB[2] => id_out.DATAB
+idB[3] => id_out.DATAB
+min_val[0] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[1] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[2] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[3] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+id_out[0] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[1] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[2] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[3] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_b1|compare_4bit:compare_4bit_1
+A[0] => A0[0].IN1
+A[1] => A0[1].IN1
+A[2] => A1[0].IN1
+A[3] => A1[1].IN1
+B[0] => B0[0].IN1
+B[1] => B0[1].IN1
+B[2] => B1[0].IN1
+B[3] => B1[1].IN1
+Oe <= compare_result:cr.port2
+Og <= compare_result:cr.port3
+Ol <= compare_result:cr.port4
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_b1|compare_4bit:compare_4bit_1|compare_2bit:compare0
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_b1|compare_4bit:compare_4bit_1|compare_2bit:compare1
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_b1|compare_4bit:compare_4bit_1|simple_result:sR0
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_b1|compare_4bit:compare_4bit_1|simple_result:sR1
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_b1|compare_4bit:compare_4bit_1|compare_result:cr
+R1[0] => Oe.IN0
+R1[0] => Ol.IN0
+R1[0] => Ol.IN0
+R1[0] => Og.IN0
+R1[1] => Og.IN1
+R1[1] => Ol.IN1
+R1[1] => Oe.IN1
+R0[0] => Oe.IN1
+R0[0] => Ol.IN1
+R0[0] => Og.IN1
+R0[1] => Og.IN1
+R0[1] => Ol.IN1
+R0[1] => Oe.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_b2
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+idA[0] => id_out.DATAA
+idA[1] => id_out.DATAA
+idA[2] => id_out.DATAA
+idA[3] => id_out.DATAA
+idB[0] => id_out.DATAB
+idB[1] => id_out.DATAB
+idB[2] => id_out.DATAB
+idB[3] => id_out.DATAB
+min_val[0] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[1] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[2] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[3] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+id_out[0] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[1] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[2] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[3] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_b2|compare_4bit:compare_4bit_1
+A[0] => A0[0].IN1
+A[1] => A0[1].IN1
+A[2] => A1[0].IN1
+A[3] => A1[1].IN1
+B[0] => B0[0].IN1
+B[1] => B0[1].IN1
+B[2] => B1[0].IN1
+B[3] => B1[1].IN1
+Oe <= compare_result:cr.port2
+Og <= compare_result:cr.port3
+Ol <= compare_result:cr.port4
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_b2|compare_4bit:compare_4bit_1|compare_2bit:compare0
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_b2|compare_4bit:compare_4bit_1|compare_2bit:compare1
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_b2|compare_4bit:compare_4bit_1|simple_result:sR0
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_b2|compare_4bit:compare_4bit_1|simple_result:sR1
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_b2|compare_4bit:compare_4bit_1|compare_result:cr
+R1[0] => Oe.IN0
+R1[0] => Ol.IN0
+R1[0] => Ol.IN0
+R1[0] => Og.IN0
+R1[1] => Og.IN1
+R1[1] => Ol.IN1
+R1[1] => Oe.IN1
+R0[0] => Oe.IN1
+R0[0] => Ol.IN1
+R0[0] => Og.IN1
+R0[1] => Og.IN1
+R0[1] => Ol.IN1
+R0[1] => Oe.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_b3
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+idA[0] => id_out.DATAA
+idA[1] => id_out.DATAA
+idA[2] => id_out.DATAA
+idA[3] => id_out.DATAA
+idB[0] => id_out.DATAB
+idB[1] => id_out.DATAB
+idB[2] => id_out.DATAB
+idB[3] => id_out.DATAB
+min_val[0] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[1] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[2] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[3] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+id_out[0] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[1] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[2] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[3] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_b3|compare_4bit:compare_4bit_1
+A[0] => A0[0].IN1
+A[1] => A0[1].IN1
+A[2] => A1[0].IN1
+A[3] => A1[1].IN1
+B[0] => B0[0].IN1
+B[1] => B0[1].IN1
+B[2] => B1[0].IN1
+B[3] => B1[1].IN1
+Oe <= compare_result:cr.port2
+Og <= compare_result:cr.port3
+Ol <= compare_result:cr.port4
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_b3|compare_4bit:compare_4bit_1|compare_2bit:compare0
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_b3|compare_4bit:compare_4bit_1|compare_2bit:compare1
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_b3|compare_4bit:compare_4bit_1|simple_result:sR0
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_b3|compare_4bit:compare_4bit_1|simple_result:sR1
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_b3|compare_4bit:compare_4bit_1|compare_result:cr
+R1[0] => Oe.IN0
+R1[0] => Ol.IN0
+R1[0] => Ol.IN0
+R1[0] => Og.IN0
+R1[1] => Og.IN1
+R1[1] => Ol.IN1
+R1[1] => Oe.IN1
+R0[0] => Oe.IN1
+R0[0] => Ol.IN1
+R0[0] => Og.IN1
+R0[1] => Og.IN1
+R0[1] => Ol.IN1
+R0[1] => Oe.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_c0
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+idA[0] => id_out.DATAA
+idA[1] => id_out.DATAA
+idA[2] => id_out.DATAA
+idA[3] => id_out.DATAA
+idB[0] => id_out.DATAB
+idB[1] => id_out.DATAB
+idB[2] => id_out.DATAB
+idB[3] => id_out.DATAB
+min_val[0] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[1] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[2] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[3] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+id_out[0] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[1] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[2] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[3] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_c0|compare_4bit:compare_4bit_1
+A[0] => A0[0].IN1
+A[1] => A0[1].IN1
+A[2] => A1[0].IN1
+A[3] => A1[1].IN1
+B[0] => B0[0].IN1
+B[1] => B0[1].IN1
+B[2] => B1[0].IN1
+B[3] => B1[1].IN1
+Oe <= compare_result:cr.port2
+Og <= compare_result:cr.port3
+Ol <= compare_result:cr.port4
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_c0|compare_4bit:compare_4bit_1|compare_2bit:compare0
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_c0|compare_4bit:compare_4bit_1|compare_2bit:compare1
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_c0|compare_4bit:compare_4bit_1|simple_result:sR0
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_c0|compare_4bit:compare_4bit_1|simple_result:sR1
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_c0|compare_4bit:compare_4bit_1|compare_result:cr
+R1[0] => Oe.IN0
+R1[0] => Ol.IN0
+R1[0] => Ol.IN0
+R1[0] => Og.IN0
+R1[1] => Og.IN1
+R1[1] => Ol.IN1
+R1[1] => Oe.IN1
+R0[0] => Oe.IN1
+R0[0] => Ol.IN1
+R0[0] => Og.IN1
+R0[1] => Og.IN1
+R0[1] => Ol.IN1
+R0[1] => Oe.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_c1
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+idA[0] => id_out.DATAA
+idA[1] => id_out.DATAA
+idA[2] => id_out.DATAA
+idA[3] => id_out.DATAA
+idB[0] => id_out.DATAB
+idB[1] => id_out.DATAB
+idB[2] => id_out.DATAB
+idB[3] => id_out.DATAB
+min_val[0] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[1] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[2] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[3] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+id_out[0] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[1] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[2] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[3] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_c1|compare_4bit:compare_4bit_1
+A[0] => A0[0].IN1
+A[1] => A0[1].IN1
+A[2] => A1[0].IN1
+A[3] => A1[1].IN1
+B[0] => B0[0].IN1
+B[1] => B0[1].IN1
+B[2] => B1[0].IN1
+B[3] => B1[1].IN1
+Oe <= compare_result:cr.port2
+Og <= compare_result:cr.port3
+Ol <= compare_result:cr.port4
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_c1|compare_4bit:compare_4bit_1|compare_2bit:compare0
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_c1|compare_4bit:compare_4bit_1|compare_2bit:compare1
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_c1|compare_4bit:compare_4bit_1|simple_result:sR0
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_c1|compare_4bit:compare_4bit_1|simple_result:sR1
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_c1|compare_4bit:compare_4bit_1|compare_result:cr
+R1[0] => Oe.IN0
+R1[0] => Ol.IN0
+R1[0] => Ol.IN0
+R1[0] => Og.IN0
+R1[1] => Og.IN1
+R1[1] => Ol.IN1
+R1[1] => Oe.IN1
+R0[0] => Oe.IN1
+R0[0] => Ol.IN1
+R0[0] => Og.IN1
+R0[1] => Og.IN1
+R0[1] => Ol.IN1
+R0[1] => Oe.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_d
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+idA[0] => id_out.DATAA
+idA[1] => id_out.DATAA
+idA[2] => id_out.DATAA
+idA[3] => id_out.DATAA
+idB[0] => id_out.DATAB
+idB[1] => id_out.DATAB
+idB[2] => id_out.DATAB
+idB[3] => id_out.DATAB
+min_val[0] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[1] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[2] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[3] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+id_out[0] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[1] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[2] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[3] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_d|compare_4bit:compare_4bit_1
+A[0] => A0[0].IN1
+A[1] => A0[1].IN1
+A[2] => A1[0].IN1
+A[3] => A1[1].IN1
+B[0] => B0[0].IN1
+B[1] => B0[1].IN1
+B[2] => B1[0].IN1
+B[3] => B1[1].IN1
+Oe <= compare_result:cr.port2
+Og <= compare_result:cr.port3
+Ol <= compare_result:cr.port4
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_d|compare_4bit:compare_4bit_1|compare_2bit:compare0
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_d|compare_4bit:compare_4bit_1|compare_2bit:compare1
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_d|compare_4bit:compare_4bit_1|simple_result:sR0
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_d|compare_4bit:compare_4bit_1|simple_result:sR1
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma1|find_min_index:match_d|compare_4bit:compare_4bit_1|compare_result:cr
+R1[0] => Oe.IN0
+R1[0] => Ol.IN0
+R1[0] => Ol.IN0
+R1[0] => Og.IN0
+R1[1] => Og.IN1
+R1[1] => Ol.IN1
+R1[1] => Oe.IN1
+R0[0] => Oe.IN1
+R0[0] => Ol.IN1
+R0[0] => Og.IN1
+R0[1] => Og.IN1
+R0[1] => Ol.IN1
+R0[1] => Oe.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|replace15_by_index:rbi
+arr_in[0] => arr_out.IN1
+arr_in[1] => arr_out.IN1
+arr_in[2] => arr_out.IN1
+arr_in[3] => arr_out.IN1
+arr_in[4] => arr_out.IN1
+arr_in[5] => arr_out.IN1
+arr_in[6] => arr_out.IN1
+arr_in[7] => arr_out.IN1
+arr_in[8] => arr_out.IN1
+arr_in[9] => arr_out.IN1
+arr_in[10] => arr_out.IN1
+arr_in[11] => arr_out.IN1
+arr_in[12] => arr_out.IN1
+arr_in[13] => arr_out.IN1
+arr_in[14] => arr_out.IN1
+arr_in[15] => arr_out.IN1
+arr_in[16] => arr_out.IN1
+arr_in[17] => arr_out.IN1
+arr_in[18] => arr_out.IN1
+arr_in[19] => arr_out.IN1
+arr_in[20] => arr_out.IN1
+arr_in[21] => arr_out.IN1
+arr_in[22] => arr_out.IN1
+arr_in[23] => arr_out.IN1
+arr_in[24] => arr_out.IN1
+arr_in[25] => arr_out.IN1
+arr_in[26] => arr_out.IN1
+arr_in[27] => arr_out.IN1
+arr_in[28] => arr_out.IN1
+arr_in[29] => arr_out.IN1
+arr_in[30] => arr_out.IN1
+arr_in[31] => arr_out.IN1
+arr_in[32] => arr_out.IN1
+arr_in[33] => arr_out.IN1
+arr_in[34] => arr_out.IN1
+arr_in[35] => arr_out.IN1
+arr_in[36] => arr_out.IN1
+arr_in[37] => arr_out.IN1
+arr_in[38] => arr_out.IN1
+arr_in[39] => arr_out.IN1
+arr_in[40] => arr_out.IN1
+arr_in[41] => arr_out.IN1
+arr_in[42] => arr_out.IN1
+arr_in[43] => arr_out.IN1
+arr_in[44] => arr_out.IN1
+arr_in[45] => arr_out.IN1
+arr_in[46] => arr_out.IN1
+arr_in[47] => arr_out.IN1
+arr_in[48] => arr_out.IN1
+arr_in[49] => arr_out.IN1
+arr_in[50] => arr_out.IN1
+arr_in[51] => arr_out.IN1
+arr_in[52] => arr_out.IN1
+arr_in[53] => arr_out.IN1
+arr_in[54] => arr_out.IN1
+arr_in[55] => arr_out.IN1
+arr_in[56] => arr_out.IN1
+arr_in[57] => arr_out.IN1
+arr_in[58] => arr_out.IN1
+arr_in[59] => arr_out.IN1
+arr_in[60] => arr_out.IN1
+arr_in[61] => arr_out.IN1
+arr_in[62] => arr_out.IN1
+arr_in[63] => arr_out.IN1
+index[0] => ShiftLeft0.IN70
+index[1] => ShiftLeft0.IN69
+index[2] => ShiftLeft0.IN68
+index[3] => ShiftLeft0.IN67
+arr_out[0] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[1] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[2] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[3] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[4] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[5] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[6] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[7] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[8] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[9] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[10] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[11] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[12] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[13] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[14] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[15] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[16] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[17] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[18] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[19] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[20] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[21] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[22] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[23] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[24] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[25] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[26] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[27] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[28] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[29] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[30] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[31] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[32] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[33] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[34] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[35] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[36] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[37] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[38] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[39] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[40] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[41] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[42] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[43] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[44] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[45] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[46] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[47] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[48] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[49] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[50] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[51] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[52] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[53] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[54] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[55] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[56] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[57] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[58] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[59] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[60] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[61] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[62] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+arr_out[63] <= arr_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2
+arr[0] => I0[0].IN1
+arr[1] => I0[1].IN1
+arr[2] => I0[2].IN1
+arr[3] => I0[3].IN1
+arr[4] => I1[0].IN1
+arr[5] => I1[1].IN1
+arr[6] => I1[2].IN1
+arr[7] => I1[3].IN1
+arr[8] => I2[0].IN1
+arr[9] => I2[1].IN1
+arr[10] => I2[2].IN1
+arr[11] => I2[3].IN1
+arr[12] => I3[0].IN1
+arr[13] => I3[1].IN1
+arr[14] => I3[2].IN1
+arr[15] => I3[3].IN1
+arr[16] => I4[0].IN1
+arr[17] => I4[1].IN1
+arr[18] => I4[2].IN1
+arr[19] => I4[3].IN1
+arr[20] => I5[0].IN1
+arr[21] => I5[1].IN1
+arr[22] => I5[2].IN1
+arr[23] => I5[3].IN1
+arr[24] => I6[0].IN1
+arr[25] => I6[1].IN1
+arr[26] => I6[2].IN1
+arr[27] => I6[3].IN1
+arr[28] => I7[0].IN1
+arr[29] => I7[1].IN1
+arr[30] => I7[2].IN1
+arr[31] => I7[3].IN1
+arr[32] => I8[0].IN1
+arr[33] => I8[1].IN1
+arr[34] => I8[2].IN1
+arr[35] => I8[3].IN1
+arr[36] => I9[0].IN1
+arr[37] => I9[1].IN1
+arr[38] => I9[2].IN1
+arr[39] => I9[3].IN1
+arr[40] => I10[0].IN1
+arr[41] => I10[1].IN1
+arr[42] => I10[2].IN1
+arr[43] => I10[3].IN1
+arr[44] => I11[0].IN1
+arr[45] => I11[1].IN1
+arr[46] => I11[2].IN1
+arr[47] => I11[3].IN1
+arr[48] => I12[0].IN1
+arr[49] => I12[1].IN1
+arr[50] => I12[2].IN1
+arr[51] => I12[3].IN1
+arr[52] => I13[0].IN1
+arr[53] => I13[1].IN1
+arr[54] => I13[2].IN1
+arr[55] => I13[3].IN1
+arr[56] => I14[0].IN1
+arr[57] => I14[1].IN1
+arr[58] => I14[2].IN1
+arr[59] => I14[3].IN1
+arr[60] => I15[0].IN1
+arr[61] => I15[1].IN1
+arr[62] => I15[2].IN1
+arr[63] => I15[3].IN1
+min[0] <= find_min_index:match_d.port4
+min[1] <= find_min_index:match_d.port4
+min[2] <= find_min_index:match_d.port4
+min[3] <= find_min_index:match_d.port4
+index_min[0] <= find_min_index:match_d.port5
+index_min[1] <= find_min_index:match_d.port5
+index_min[2] <= find_min_index:match_d.port5
+index_min[3] <= find_min_index:match_d.port5
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a0
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+idA[0] => id_out.DATAA
+idA[1] => id_out.DATAA
+idA[2] => id_out.DATAA
+idA[3] => id_out.DATAA
+idB[0] => id_out.DATAB
+idB[1] => id_out.DATAB
+idB[2] => id_out.DATAB
+idB[3] => id_out.DATAB
+min_val[0] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[1] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[2] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[3] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+id_out[0] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[1] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[2] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[3] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a0|compare_4bit:compare_4bit_1
+A[0] => A0[0].IN1
+A[1] => A0[1].IN1
+A[2] => A1[0].IN1
+A[3] => A1[1].IN1
+B[0] => B0[0].IN1
+B[1] => B0[1].IN1
+B[2] => B1[0].IN1
+B[3] => B1[1].IN1
+Oe <= compare_result:cr.port2
+Og <= compare_result:cr.port3
+Ol <= compare_result:cr.port4
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a0|compare_4bit:compare_4bit_1|compare_2bit:compare0
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a0|compare_4bit:compare_4bit_1|compare_2bit:compare1
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a0|compare_4bit:compare_4bit_1|simple_result:sR0
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a0|compare_4bit:compare_4bit_1|simple_result:sR1
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a0|compare_4bit:compare_4bit_1|compare_result:cr
+R1[0] => Oe.IN0
+R1[0] => Ol.IN0
+R1[0] => Ol.IN0
+R1[0] => Og.IN0
+R1[1] => Og.IN1
+R1[1] => Ol.IN1
+R1[1] => Oe.IN1
+R0[0] => Oe.IN1
+R0[0] => Ol.IN1
+R0[0] => Og.IN1
+R0[1] => Og.IN1
+R0[1] => Ol.IN1
+R0[1] => Oe.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a1
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+idA[0] => id_out.DATAA
+idA[1] => id_out.DATAA
+idA[2] => id_out.DATAA
+idA[3] => id_out.DATAA
+idB[0] => id_out.DATAB
+idB[1] => id_out.DATAB
+idB[2] => id_out.DATAB
+idB[3] => id_out.DATAB
+min_val[0] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[1] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[2] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[3] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+id_out[0] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[1] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[2] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[3] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a1|compare_4bit:compare_4bit_1
+A[0] => A0[0].IN1
+A[1] => A0[1].IN1
+A[2] => A1[0].IN1
+A[3] => A1[1].IN1
+B[0] => B0[0].IN1
+B[1] => B0[1].IN1
+B[2] => B1[0].IN1
+B[3] => B1[1].IN1
+Oe <= compare_result:cr.port2
+Og <= compare_result:cr.port3
+Ol <= compare_result:cr.port4
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a1|compare_4bit:compare_4bit_1|compare_2bit:compare0
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a1|compare_4bit:compare_4bit_1|compare_2bit:compare1
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a1|compare_4bit:compare_4bit_1|simple_result:sR0
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a1|compare_4bit:compare_4bit_1|simple_result:sR1
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a1|compare_4bit:compare_4bit_1|compare_result:cr
+R1[0] => Oe.IN0
+R1[0] => Ol.IN0
+R1[0] => Ol.IN0
+R1[0] => Og.IN0
+R1[1] => Og.IN1
+R1[1] => Ol.IN1
+R1[1] => Oe.IN1
+R0[0] => Oe.IN1
+R0[0] => Ol.IN1
+R0[0] => Og.IN1
+R0[1] => Og.IN1
+R0[1] => Ol.IN1
+R0[1] => Oe.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a2
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+idA[0] => id_out.DATAA
+idA[1] => id_out.DATAA
+idA[2] => id_out.DATAA
+idA[3] => id_out.DATAA
+idB[0] => id_out.DATAB
+idB[1] => id_out.DATAB
+idB[2] => id_out.DATAB
+idB[3] => id_out.DATAB
+min_val[0] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[1] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[2] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[3] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+id_out[0] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[1] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[2] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[3] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a2|compare_4bit:compare_4bit_1
+A[0] => A0[0].IN1
+A[1] => A0[1].IN1
+A[2] => A1[0].IN1
+A[3] => A1[1].IN1
+B[0] => B0[0].IN1
+B[1] => B0[1].IN1
+B[2] => B1[0].IN1
+B[3] => B1[1].IN1
+Oe <= compare_result:cr.port2
+Og <= compare_result:cr.port3
+Ol <= compare_result:cr.port4
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a2|compare_4bit:compare_4bit_1|compare_2bit:compare0
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a2|compare_4bit:compare_4bit_1|compare_2bit:compare1
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a2|compare_4bit:compare_4bit_1|simple_result:sR0
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a2|compare_4bit:compare_4bit_1|simple_result:sR1
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a2|compare_4bit:compare_4bit_1|compare_result:cr
+R1[0] => Oe.IN0
+R1[0] => Ol.IN0
+R1[0] => Ol.IN0
+R1[0] => Og.IN0
+R1[1] => Og.IN1
+R1[1] => Ol.IN1
+R1[1] => Oe.IN1
+R0[0] => Oe.IN1
+R0[0] => Ol.IN1
+R0[0] => Og.IN1
+R0[1] => Og.IN1
+R0[1] => Ol.IN1
+R0[1] => Oe.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a3
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+idA[0] => id_out.DATAA
+idA[1] => id_out.DATAA
+idA[2] => id_out.DATAA
+idA[3] => id_out.DATAA
+idB[0] => id_out.DATAB
+idB[1] => id_out.DATAB
+idB[2] => id_out.DATAB
+idB[3] => id_out.DATAB
+min_val[0] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[1] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[2] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[3] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+id_out[0] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[1] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[2] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[3] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a3|compare_4bit:compare_4bit_1
+A[0] => A0[0].IN1
+A[1] => A0[1].IN1
+A[2] => A1[0].IN1
+A[3] => A1[1].IN1
+B[0] => B0[0].IN1
+B[1] => B0[1].IN1
+B[2] => B1[0].IN1
+B[3] => B1[1].IN1
+Oe <= compare_result:cr.port2
+Og <= compare_result:cr.port3
+Ol <= compare_result:cr.port4
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a3|compare_4bit:compare_4bit_1|compare_2bit:compare0
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a3|compare_4bit:compare_4bit_1|compare_2bit:compare1
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a3|compare_4bit:compare_4bit_1|simple_result:sR0
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a3|compare_4bit:compare_4bit_1|simple_result:sR1
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a3|compare_4bit:compare_4bit_1|compare_result:cr
+R1[0] => Oe.IN0
+R1[0] => Ol.IN0
+R1[0] => Ol.IN0
+R1[0] => Og.IN0
+R1[1] => Og.IN1
+R1[1] => Ol.IN1
+R1[1] => Oe.IN1
+R0[0] => Oe.IN1
+R0[0] => Ol.IN1
+R0[0] => Og.IN1
+R0[1] => Og.IN1
+R0[1] => Ol.IN1
+R0[1] => Oe.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a4
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+idA[0] => id_out.DATAA
+idA[1] => id_out.DATAA
+idA[2] => id_out.DATAA
+idA[3] => id_out.DATAA
+idB[0] => id_out.DATAB
+idB[1] => id_out.DATAB
+idB[2] => id_out.DATAB
+idB[3] => id_out.DATAB
+min_val[0] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[1] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[2] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[3] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+id_out[0] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[1] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[2] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[3] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a4|compare_4bit:compare_4bit_1
+A[0] => A0[0].IN1
+A[1] => A0[1].IN1
+A[2] => A1[0].IN1
+A[3] => A1[1].IN1
+B[0] => B0[0].IN1
+B[1] => B0[1].IN1
+B[2] => B1[0].IN1
+B[3] => B1[1].IN1
+Oe <= compare_result:cr.port2
+Og <= compare_result:cr.port3
+Ol <= compare_result:cr.port4
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a4|compare_4bit:compare_4bit_1|compare_2bit:compare0
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a4|compare_4bit:compare_4bit_1|compare_2bit:compare1
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a4|compare_4bit:compare_4bit_1|simple_result:sR0
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a4|compare_4bit:compare_4bit_1|simple_result:sR1
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a4|compare_4bit:compare_4bit_1|compare_result:cr
+R1[0] => Oe.IN0
+R1[0] => Ol.IN0
+R1[0] => Ol.IN0
+R1[0] => Og.IN0
+R1[1] => Og.IN1
+R1[1] => Ol.IN1
+R1[1] => Oe.IN1
+R0[0] => Oe.IN1
+R0[0] => Ol.IN1
+R0[0] => Og.IN1
+R0[1] => Og.IN1
+R0[1] => Ol.IN1
+R0[1] => Oe.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a5
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+idA[0] => id_out.DATAA
+idA[1] => id_out.DATAA
+idA[2] => id_out.DATAA
+idA[3] => id_out.DATAA
+idB[0] => id_out.DATAB
+idB[1] => id_out.DATAB
+idB[2] => id_out.DATAB
+idB[3] => id_out.DATAB
+min_val[0] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[1] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[2] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[3] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+id_out[0] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[1] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[2] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[3] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a5|compare_4bit:compare_4bit_1
+A[0] => A0[0].IN1
+A[1] => A0[1].IN1
+A[2] => A1[0].IN1
+A[3] => A1[1].IN1
+B[0] => B0[0].IN1
+B[1] => B0[1].IN1
+B[2] => B1[0].IN1
+B[3] => B1[1].IN1
+Oe <= compare_result:cr.port2
+Og <= compare_result:cr.port3
+Ol <= compare_result:cr.port4
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a5|compare_4bit:compare_4bit_1|compare_2bit:compare0
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a5|compare_4bit:compare_4bit_1|compare_2bit:compare1
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a5|compare_4bit:compare_4bit_1|simple_result:sR0
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a5|compare_4bit:compare_4bit_1|simple_result:sR1
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a5|compare_4bit:compare_4bit_1|compare_result:cr
+R1[0] => Oe.IN0
+R1[0] => Ol.IN0
+R1[0] => Ol.IN0
+R1[0] => Og.IN0
+R1[1] => Og.IN1
+R1[1] => Ol.IN1
+R1[1] => Oe.IN1
+R0[0] => Oe.IN1
+R0[0] => Ol.IN1
+R0[0] => Og.IN1
+R0[1] => Og.IN1
+R0[1] => Ol.IN1
+R0[1] => Oe.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a6
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+idA[0] => id_out.DATAA
+idA[1] => id_out.DATAA
+idA[2] => id_out.DATAA
+idA[3] => id_out.DATAA
+idB[0] => id_out.DATAB
+idB[1] => id_out.DATAB
+idB[2] => id_out.DATAB
+idB[3] => id_out.DATAB
+min_val[0] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[1] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[2] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[3] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+id_out[0] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[1] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[2] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[3] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a6|compare_4bit:compare_4bit_1
+A[0] => A0[0].IN1
+A[1] => A0[1].IN1
+A[2] => A1[0].IN1
+A[3] => A1[1].IN1
+B[0] => B0[0].IN1
+B[1] => B0[1].IN1
+B[2] => B1[0].IN1
+B[3] => B1[1].IN1
+Oe <= compare_result:cr.port2
+Og <= compare_result:cr.port3
+Ol <= compare_result:cr.port4
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a6|compare_4bit:compare_4bit_1|compare_2bit:compare0
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a6|compare_4bit:compare_4bit_1|compare_2bit:compare1
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a6|compare_4bit:compare_4bit_1|simple_result:sR0
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a6|compare_4bit:compare_4bit_1|simple_result:sR1
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a6|compare_4bit:compare_4bit_1|compare_result:cr
+R1[0] => Oe.IN0
+R1[0] => Ol.IN0
+R1[0] => Ol.IN0
+R1[0] => Og.IN0
+R1[1] => Og.IN1
+R1[1] => Ol.IN1
+R1[1] => Oe.IN1
+R0[0] => Oe.IN1
+R0[0] => Ol.IN1
+R0[0] => Og.IN1
+R0[1] => Og.IN1
+R0[1] => Ol.IN1
+R0[1] => Oe.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a7
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+idA[0] => id_out.DATAA
+idA[1] => id_out.DATAA
+idA[2] => id_out.DATAA
+idA[3] => id_out.DATAA
+idB[0] => id_out.DATAB
+idB[1] => id_out.DATAB
+idB[2] => id_out.DATAB
+idB[3] => id_out.DATAB
+min_val[0] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[1] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[2] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[3] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+id_out[0] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[1] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[2] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[3] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a7|compare_4bit:compare_4bit_1
+A[0] => A0[0].IN1
+A[1] => A0[1].IN1
+A[2] => A1[0].IN1
+A[3] => A1[1].IN1
+B[0] => B0[0].IN1
+B[1] => B0[1].IN1
+B[2] => B1[0].IN1
+B[3] => B1[1].IN1
+Oe <= compare_result:cr.port2
+Og <= compare_result:cr.port3
+Ol <= compare_result:cr.port4
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a7|compare_4bit:compare_4bit_1|compare_2bit:compare0
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a7|compare_4bit:compare_4bit_1|compare_2bit:compare1
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a7|compare_4bit:compare_4bit_1|simple_result:sR0
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a7|compare_4bit:compare_4bit_1|simple_result:sR1
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_a7|compare_4bit:compare_4bit_1|compare_result:cr
+R1[0] => Oe.IN0
+R1[0] => Ol.IN0
+R1[0] => Ol.IN0
+R1[0] => Og.IN0
+R1[1] => Og.IN1
+R1[1] => Ol.IN1
+R1[1] => Oe.IN1
+R0[0] => Oe.IN1
+R0[0] => Ol.IN1
+R0[0] => Og.IN1
+R0[1] => Og.IN1
+R0[1] => Ol.IN1
+R0[1] => Oe.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_b0
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+idA[0] => id_out.DATAA
+idA[1] => id_out.DATAA
+idA[2] => id_out.DATAA
+idA[3] => id_out.DATAA
+idB[0] => id_out.DATAB
+idB[1] => id_out.DATAB
+idB[2] => id_out.DATAB
+idB[3] => id_out.DATAB
+min_val[0] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[1] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[2] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[3] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+id_out[0] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[1] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[2] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[3] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_b0|compare_4bit:compare_4bit_1
+A[0] => A0[0].IN1
+A[1] => A0[1].IN1
+A[2] => A1[0].IN1
+A[3] => A1[1].IN1
+B[0] => B0[0].IN1
+B[1] => B0[1].IN1
+B[2] => B1[0].IN1
+B[3] => B1[1].IN1
+Oe <= compare_result:cr.port2
+Og <= compare_result:cr.port3
+Ol <= compare_result:cr.port4
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_b0|compare_4bit:compare_4bit_1|compare_2bit:compare0
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_b0|compare_4bit:compare_4bit_1|compare_2bit:compare1
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_b0|compare_4bit:compare_4bit_1|simple_result:sR0
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_b0|compare_4bit:compare_4bit_1|simple_result:sR1
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_b0|compare_4bit:compare_4bit_1|compare_result:cr
+R1[0] => Oe.IN0
+R1[0] => Ol.IN0
+R1[0] => Ol.IN0
+R1[0] => Og.IN0
+R1[1] => Og.IN1
+R1[1] => Ol.IN1
+R1[1] => Oe.IN1
+R0[0] => Oe.IN1
+R0[0] => Ol.IN1
+R0[0] => Og.IN1
+R0[1] => Og.IN1
+R0[1] => Ol.IN1
+R0[1] => Oe.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_b1
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+idA[0] => id_out.DATAA
+idA[1] => id_out.DATAA
+idA[2] => id_out.DATAA
+idA[3] => id_out.DATAA
+idB[0] => id_out.DATAB
+idB[1] => id_out.DATAB
+idB[2] => id_out.DATAB
+idB[3] => id_out.DATAB
+min_val[0] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[1] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[2] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[3] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+id_out[0] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[1] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[2] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[3] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_b1|compare_4bit:compare_4bit_1
+A[0] => A0[0].IN1
+A[1] => A0[1].IN1
+A[2] => A1[0].IN1
+A[3] => A1[1].IN1
+B[0] => B0[0].IN1
+B[1] => B0[1].IN1
+B[2] => B1[0].IN1
+B[3] => B1[1].IN1
+Oe <= compare_result:cr.port2
+Og <= compare_result:cr.port3
+Ol <= compare_result:cr.port4
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_b1|compare_4bit:compare_4bit_1|compare_2bit:compare0
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_b1|compare_4bit:compare_4bit_1|compare_2bit:compare1
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_b1|compare_4bit:compare_4bit_1|simple_result:sR0
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_b1|compare_4bit:compare_4bit_1|simple_result:sR1
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_b1|compare_4bit:compare_4bit_1|compare_result:cr
+R1[0] => Oe.IN0
+R1[0] => Ol.IN0
+R1[0] => Ol.IN0
+R1[0] => Og.IN0
+R1[1] => Og.IN1
+R1[1] => Ol.IN1
+R1[1] => Oe.IN1
+R0[0] => Oe.IN1
+R0[0] => Ol.IN1
+R0[0] => Og.IN1
+R0[1] => Og.IN1
+R0[1] => Ol.IN1
+R0[1] => Oe.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_b2
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+idA[0] => id_out.DATAA
+idA[1] => id_out.DATAA
+idA[2] => id_out.DATAA
+idA[3] => id_out.DATAA
+idB[0] => id_out.DATAB
+idB[1] => id_out.DATAB
+idB[2] => id_out.DATAB
+idB[3] => id_out.DATAB
+min_val[0] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[1] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[2] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[3] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+id_out[0] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[1] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[2] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[3] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_b2|compare_4bit:compare_4bit_1
+A[0] => A0[0].IN1
+A[1] => A0[1].IN1
+A[2] => A1[0].IN1
+A[3] => A1[1].IN1
+B[0] => B0[0].IN1
+B[1] => B0[1].IN1
+B[2] => B1[0].IN1
+B[3] => B1[1].IN1
+Oe <= compare_result:cr.port2
+Og <= compare_result:cr.port3
+Ol <= compare_result:cr.port4
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_b2|compare_4bit:compare_4bit_1|compare_2bit:compare0
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_b2|compare_4bit:compare_4bit_1|compare_2bit:compare1
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_b2|compare_4bit:compare_4bit_1|simple_result:sR0
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_b2|compare_4bit:compare_4bit_1|simple_result:sR1
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_b2|compare_4bit:compare_4bit_1|compare_result:cr
+R1[0] => Oe.IN0
+R1[0] => Ol.IN0
+R1[0] => Ol.IN0
+R1[0] => Og.IN0
+R1[1] => Og.IN1
+R1[1] => Ol.IN1
+R1[1] => Oe.IN1
+R0[0] => Oe.IN1
+R0[0] => Ol.IN1
+R0[0] => Og.IN1
+R0[1] => Og.IN1
+R0[1] => Ol.IN1
+R0[1] => Oe.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_b3
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+idA[0] => id_out.DATAA
+idA[1] => id_out.DATAA
+idA[2] => id_out.DATAA
+idA[3] => id_out.DATAA
+idB[0] => id_out.DATAB
+idB[1] => id_out.DATAB
+idB[2] => id_out.DATAB
+idB[3] => id_out.DATAB
+min_val[0] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[1] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[2] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[3] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+id_out[0] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[1] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[2] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[3] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_b3|compare_4bit:compare_4bit_1
+A[0] => A0[0].IN1
+A[1] => A0[1].IN1
+A[2] => A1[0].IN1
+A[3] => A1[1].IN1
+B[0] => B0[0].IN1
+B[1] => B0[1].IN1
+B[2] => B1[0].IN1
+B[3] => B1[1].IN1
+Oe <= compare_result:cr.port2
+Og <= compare_result:cr.port3
+Ol <= compare_result:cr.port4
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_b3|compare_4bit:compare_4bit_1|compare_2bit:compare0
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_b3|compare_4bit:compare_4bit_1|compare_2bit:compare1
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_b3|compare_4bit:compare_4bit_1|simple_result:sR0
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_b3|compare_4bit:compare_4bit_1|simple_result:sR1
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_b3|compare_4bit:compare_4bit_1|compare_result:cr
+R1[0] => Oe.IN0
+R1[0] => Ol.IN0
+R1[0] => Ol.IN0
+R1[0] => Og.IN0
+R1[1] => Og.IN1
+R1[1] => Ol.IN1
+R1[1] => Oe.IN1
+R0[0] => Oe.IN1
+R0[0] => Ol.IN1
+R0[0] => Og.IN1
+R0[1] => Og.IN1
+R0[1] => Ol.IN1
+R0[1] => Oe.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_c0
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+idA[0] => id_out.DATAA
+idA[1] => id_out.DATAA
+idA[2] => id_out.DATAA
+idA[3] => id_out.DATAA
+idB[0] => id_out.DATAB
+idB[1] => id_out.DATAB
+idB[2] => id_out.DATAB
+idB[3] => id_out.DATAB
+min_val[0] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[1] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[2] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[3] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+id_out[0] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[1] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[2] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[3] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_c0|compare_4bit:compare_4bit_1
+A[0] => A0[0].IN1
+A[1] => A0[1].IN1
+A[2] => A1[0].IN1
+A[3] => A1[1].IN1
+B[0] => B0[0].IN1
+B[1] => B0[1].IN1
+B[2] => B1[0].IN1
+B[3] => B1[1].IN1
+Oe <= compare_result:cr.port2
+Og <= compare_result:cr.port3
+Ol <= compare_result:cr.port4
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_c0|compare_4bit:compare_4bit_1|compare_2bit:compare0
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_c0|compare_4bit:compare_4bit_1|compare_2bit:compare1
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_c0|compare_4bit:compare_4bit_1|simple_result:sR0
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_c0|compare_4bit:compare_4bit_1|simple_result:sR1
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_c0|compare_4bit:compare_4bit_1|compare_result:cr
+R1[0] => Oe.IN0
+R1[0] => Ol.IN0
+R1[0] => Ol.IN0
+R1[0] => Og.IN0
+R1[1] => Og.IN1
+R1[1] => Ol.IN1
+R1[1] => Oe.IN1
+R0[0] => Oe.IN1
+R0[0] => Ol.IN1
+R0[0] => Og.IN1
+R0[1] => Og.IN1
+R0[1] => Ol.IN1
+R0[1] => Oe.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_c1
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+idA[0] => id_out.DATAA
+idA[1] => id_out.DATAA
+idA[2] => id_out.DATAA
+idA[3] => id_out.DATAA
+idB[0] => id_out.DATAB
+idB[1] => id_out.DATAB
+idB[2] => id_out.DATAB
+idB[3] => id_out.DATAB
+min_val[0] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[1] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[2] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[3] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+id_out[0] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[1] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[2] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[3] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_c1|compare_4bit:compare_4bit_1
+A[0] => A0[0].IN1
+A[1] => A0[1].IN1
+A[2] => A1[0].IN1
+A[3] => A1[1].IN1
+B[0] => B0[0].IN1
+B[1] => B0[1].IN1
+B[2] => B1[0].IN1
+B[3] => B1[1].IN1
+Oe <= compare_result:cr.port2
+Og <= compare_result:cr.port3
+Ol <= compare_result:cr.port4
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_c1|compare_4bit:compare_4bit_1|compare_2bit:compare0
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_c1|compare_4bit:compare_4bit_1|compare_2bit:compare1
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_c1|compare_4bit:compare_4bit_1|simple_result:sR0
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_c1|compare_4bit:compare_4bit_1|simple_result:sR1
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_c1|compare_4bit:compare_4bit_1|compare_result:cr
+R1[0] => Oe.IN0
+R1[0] => Ol.IN0
+R1[0] => Ol.IN0
+R1[0] => Og.IN0
+R1[1] => Og.IN1
+R1[1] => Ol.IN1
+R1[1] => Oe.IN1
+R0[0] => Oe.IN1
+R0[0] => Ol.IN1
+R0[0] => Og.IN1
+R0[1] => Og.IN1
+R0[1] => Ol.IN1
+R0[1] => Oe.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_d
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+idA[0] => id_out.DATAA
+idA[1] => id_out.DATAA
+idA[2] => id_out.DATAA
+idA[3] => id_out.DATAA
+idB[0] => id_out.DATAB
+idB[1] => id_out.DATAB
+idB[2] => id_out.DATAB
+idB[3] => id_out.DATAB
+min_val[0] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[1] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[2] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+min_val[3] <= min_val.DB_MAX_OUTPUT_PORT_TYPE
+id_out[0] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[1] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[2] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+id_out[3] <= id_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_d|compare_4bit:compare_4bit_1
+A[0] => A0[0].IN1
+A[1] => A0[1].IN1
+A[2] => A1[0].IN1
+A[3] => A1[1].IN1
+B[0] => B0[0].IN1
+B[1] => B0[1].IN1
+B[2] => B1[0].IN1
+B[3] => B1[1].IN1
+Oe <= compare_result:cr.port2
+Og <= compare_result:cr.port3
+Ol <= compare_result:cr.port4
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_d|compare_4bit:compare_4bit_1|compare_2bit:compare0
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_d|compare_4bit:compare_4bit_1|compare_2bit:compare1
+A[0] => Og.IN0
+A[0] => Og.IN0
+A[0] => Oe.IN0
+A[0] => Ol.IN0
+A[0] => Ol.IN0
+A[1] => Og.IN0
+A[1] => Og.IN1
+A[1] => Oe.IN0
+A[1] => Ol.IN1
+A[1] => Ol.IN0
+B[0] => Oe.IN1
+B[0] => Ol.IN1
+B[0] => Ol.IN1
+B[0] => Og.IN1
+B[0] => Og.IN1
+B[1] => Oe.IN1
+B[1] => Ol.IN1
+B[1] => Ol.IN1
+B[1] => Og.IN1
+B[1] => Og.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_d|compare_4bit:compare_4bit_1|simple_result:sR0
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_d|compare_4bit:compare_4bit_1|simple_result:sR1
+Oe => R.IN0
+Oe => R.IN1
+Og => R.IN0
+Og => R.IN1
+Ol => R.IN1
+Ol => R.IN1
+R[0] <= R.DB_MAX_OUTPUT_PORT_TYPE
+R[1] <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_bench|min_finder_2:test2|find_min_in_arr:fma2|find_min_index:match_d|compare_4bit:compare_4bit_1|compare_result:cr
+R1[0] => Oe.IN0
+R1[0] => Ol.IN0
+R1[0] => Ol.IN0
+R1[0] => Og.IN0
+R1[1] => Og.IN1
+R1[1] => Ol.IN1
+R1[1] => Oe.IN1
+R0[0] => Oe.IN1
+R0[0] => Ol.IN1
+R0[0] => Og.IN1
+R0[1] => Og.IN1
+R0[1] => Ol.IN1
+R0[1] => Oe.IN1
+Oe <= Oe.DB_MAX_OUTPUT_PORT_TYPE
+Og <= Og.DB_MAX_OUTPUT_PORT_TYPE
+Ol <= Ol.DB_MAX_OUTPUT_PORT_TYPE
+
+

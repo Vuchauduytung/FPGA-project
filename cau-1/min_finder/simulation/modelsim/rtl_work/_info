@@ -1,0 +1,308 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/HCMUT/FPGA/btl/min_finder/simulation/modelsim
+T_opt
+!s110 1650430403
+VmmRi_N4@jWgd<HzhgUB=60
+04 12 4 work test_bench_1 fast 0
+=1-002b67fa90a6-625f91c3-12-3030
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vcompare_2bit
+Z2 !s110 1650430394
+!i10b 1
+!s100 OzEfi3?YJI<Y47Mb=M:1E1
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I[G3Xa5:_h^@F2[4OG7:PV1
+R0
+Z4 w1650430348
+Z5 8C:/HCMUT/FPGA/btl/min_finder/min_finder_2.v
+Z6 FC:/HCMUT/FPGA/btl/min_finder/min_finder_2.v
+!i122 1
+L0 110 9
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z9 !s108 1650430394.000000
+Z10 !s107 C:/HCMUT/FPGA/btl/min_finder/min_finder_2.v|
+Z11 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/HCMUT/FPGA/btl/min_finder|C:/HCMUT/FPGA/btl/min_finder/min_finder_2.v|
+!i113 0
+Z12 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z13 !s92 -vlog01compat -work work +incdir+C:/HCMUT/FPGA/btl/min_finder -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vcompare_4bit
+R2
+!i10b 1
+!s100 `BZ`kMQTYdg:0mIi[Bmzf2
+R3
+IA6QYXPKHPm;MESG1l_Ah80
+R0
+R4
+R5
+R6
+!i122 1
+L0 89 19
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R1
+vcompare_result
+R2
+!i10b 1
+!s100 :d8QccEbR[MeAH@YJnJBM0
+R3
+I3KL@;6P4k6P4kJS]bz5=12
+R0
+R4
+R5
+R6
+!i122 1
+L0 131 9
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R1
+vfind_min_in_arr
+R2
+!i10b 1
+!s100 >nT]JDe4MDbA`QB?8k5Zh0
+R3
+IfnlY2Uh31Rf=O=N6@nBhi1
+R0
+R4
+R5
+R6
+!i122 1
+L0 15 30
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R1
+vfind_min_index
+R2
+!i10b 1
+!s100 DSP]CI:nJfRLZA<EVfU`U0
+R3
+IMJL84iI197ZT>PCozdE4h0
+R0
+R4
+R5
+R6
+!i122 1
+L0 57 30
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R1
+vmin_finder_1
+R2
+!i10b 1
+!s100 [[jb=IM5GQ0m]>Z]5gR3U2
+R3
+Iii:>a]AbV@g83X?WCU09l0
+R0
+w1650350928
+8C:/HCMUT/FPGA/btl/min_finder/min_finder_1.v
+FC:/HCMUT/FPGA/btl/min_finder/min_finder_1.v
+!i122 0
+L0 1 24
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/HCMUT/FPGA/btl/min_finder/min_finder_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/HCMUT/FPGA/btl/min_finder|C:/HCMUT/FPGA/btl/min_finder/min_finder_1.v|
+!i113 0
+R12
+R13
+R1
+vmin_finder_2
+R2
+!i10b 1
+!s100 ]KB3ck?nl>bHE>D1mIPD=1
+R3
+IIabg=0UHDPLfU<f`>8iDI1
+R0
+R4
+R5
+R6
+!i122 1
+L0 1 12
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R1
+vreplace15_by_index
+R2
+!i10b 1
+!s100 GBPSd>jQ:ofRj[X20GNj_0
+R3
+I:MEjkEb=@Q>iNL@Nz=1Zk0
+R0
+R4
+R5
+R6
+!i122 1
+L0 47 8
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R1
+vsimple_result
+R2
+!i10b 1
+!s100 Pc`C`MCi:6;nT[0kHm:@]2
+R3
+IgLeYZIcG[^Z78^J2Z8[Xn2
+R0
+R4
+R5
+R6
+!i122 1
+L0 121 8
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R1
+vtest_bench
+R2
+!i10b 1
+!s100 CN@VMiMP`OhWJAdLec4Z`0
+R3
+IO:OAz1PD8K1F<?D]9mkzU3
+R0
+Z14 w1650430347
+Z15 8C:/HCMUT/FPGA/btl/min_finder/test_bench.v
+Z16 FC:/HCMUT/FPGA/btl/min_finder/test_bench.v
+!i122 2
+L0 3 15
+R7
+R8
+r1
+!s85 0
+31
+R9
+Z17 !s107 C:/HCMUT/FPGA/btl/min_finder/test_bench.v|
+Z18 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/HCMUT/FPGA/btl/min_finder|C:/HCMUT/FPGA/btl/min_finder/test_bench.v|
+!i113 0
+R12
+R13
+R1
+vtest_bench_1
+R2
+!i10b 1
+!s100 MX=C9W1WNXnAn`4C7mj5]2
+R3
+InUQDGW7OmT[QZkNhLNWc`2
+R0
+R14
+R15
+R16
+!i122 2
+L0 20 14
+R7
+R8
+r1
+!s85 0
+31
+R9
+R17
+R18
+!i113 0
+R12
+R13
+R1
+vtest_bench_2
+R2
+!i10b 1
+!s100 k91EocJWUnAhmZ4Ie4dbR3
+R3
+IgB?0YoSLC:<E`R8[j<J]F2
+R0
+R14
+R15
+R16
+!i122 2
+L0 36 14
+R7
+R8
+r1
+!s85 0
+31
+R9
+R17
+R18
+!i113 0
+R12
+R13
+R1

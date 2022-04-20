@@ -1,0 +1,12 @@
+Combinational Logic Design 
+(ESD Chapter 2: Figure 2.4)
+
+We use port map statement to achieve the structural model (components instantiations). 
+
+The following example shows how to write the program to incorporate multiple components 
+in the design of a more complex circuit. 
+
+In order to simulate the design, a simple test bench code must be written to apply a 
+sequence of inputs (Stimulators) to the circuit being tested (UUT). 
+
+The output of the test bench and UUT interaction can be observed in the simulation waveform window.

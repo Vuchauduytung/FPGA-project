@@ -1,0 +1,10 @@
+Typical Combinational Components 
+(ESD Chapter 2: Figure 2.5)
+
+The following behavior style codes demonstrate the concurrent and sequential capabilities of VHDL. 
+The concurrent statements are written within the body of an architecture. 
+
+They include concurrent signal assignment, concurrent process and component instantiations (port map statement). 
+
+Sequential statements are written within a process statement, function or procedure. 
+Sequential statement include case statement, if-then-else statement and loop statement.

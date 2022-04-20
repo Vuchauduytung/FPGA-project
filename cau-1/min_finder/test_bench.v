@@ -1,0 +1,49 @@
+`timescale 1ns / 1ps
+
+module test_bench(min1_sol1, min2_sol1, index_min1_sol1, min1_sol2, min2_sol2, index_min1_sol2);
+	output [3:0] min1_sol1, min2_sol1, index_min1_sol1, min1_sol2, min2_sol2, index_min1_sol2;
+	reg [3:0] I0, I1, I2, I3, I4, I5, I6, I7, I8, I9, I10, I11, I12, I13, I14, I15;
+	
+	min_finder_1 test1(I0, I1, I2, I3, I4, I5, I6, I7, I8, I9, I10, I11, I12, I13, I14, I15, min1_sol1, min2_sol1, index_min1_sol1);
+	min_finder_2 test2(I0, I1, I2, I3, I4, I5, I6, I7, I8, I9, I10, I11, I12, I13, I14, I15, min1_sol2, min2_sol2, index_min1_sol2);
+	
+	initial 
+		begin
+			I0=2; I1=3; I2=1; I3=2; I4=5; I5=6; I6=9; I7=9; I8=9; I9=9; I10=9; I11=9; I12=9; I13=9; I14=9; I15=9; #1
+			I0=1; I1=4; I2=2; I3=1; I4=2; I5=12; I6=9; I7=9; I8=9; I9=9; I10=9; I11=9; I12=9; I13=9; I14=9; I15=9; #1
+			I0=5; I1=2; I2=10; I3=0; I4=4; I5=1; I6=9; I7=9; I8=9; I9=9; I10=9; I11=9; I12=9; I13=9; I14=9; I15=9; 
+		end
+
+endmodule
+
+
+module test_bench_1(min1, min2, index_min1);
+	output [3:0] min1, min2, index_min1;
+	reg [3:0] I0, I1, I2, I3, I4, I5, I6, I7, I8, I9, I10, I11, I12, I13, I14, I15;
+	
+	min_finder_1 test3(I0, I1, I2, I3, I4, I5, I6, I7, I8, I9, I10, I11, I12, I13, I14, I15, min1, min2, index_min1);
+	
+	initial 
+		begin
+			I0=2; I1=3; I2=1; I3=2; I4=5; I5=6; I6=9; I7=9; I8=9; I9=9; I10=9; I11=9; I12=9; I13=9; I14=9; I15=9; #1
+			I0=1; I1=4; I2=2; I3=1; I4=2; I5=12; I6=9; I7=9; I8=9; I9=9; I10=9; I11=9; I12=9; I13=9; I14=9; I15=9; #1
+			I0=5; I1=2; I2=10; I3=0; I4=4; I5=1; I6=9; I7=9; I8=9; I9=9; I10=9; I11=9; I12=9; I13=9; I14=9; I15=9; 
+		end
+
+endmodule
+
+
+module test_bench_2(min1, min2, index_min1);
+	output [3:0] min1, min2, index_min1;
+	reg [3:0] I0, I1, I2, I3, I4, I5, I6, I7, I8, I9, I10, I11, I12, I13, I14, I15;
+	
+	min_finder_2 test4(I0, I1, I2, I3, I4, I5, I6, I7, I8, I9, I10, I11, I12, I13, I14, I15, min1, min2, index_min1);
+	
+	initial 
+		begin
+			I0=2; I1=3; I2=1; I3=2; I4=5; I5=6; I6=9; I7=9; I8=9; I9=9; I10=9; I11=9; I12=9; I13=9; I14=9; I15=9; #1
+			I0=1; I1=4; I2=2; I3=1; I4=2; I5=12; I6=9; I7=9; I8=9; I9=9; I10=9; I11=9; I12=9; I13=9; I14=9; I15=9; #1
+			I0=5; I1=2; I2=10; I3=0; I4=4; I5=1; I6=9; I7=9; I8=9; I9=9; I10=9; I11=9; I12=9; I13=9; I14=9; I15=9; 
+		end
+
+endmodule

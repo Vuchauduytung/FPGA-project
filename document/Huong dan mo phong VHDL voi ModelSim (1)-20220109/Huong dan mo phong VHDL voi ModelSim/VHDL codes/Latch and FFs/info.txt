@@ -1,0 +1,10 @@
+Latch & Flip-Flops 
+(ESD Chapter 2.3)
+
+Besides from the circuit input and output signals, there are normally two other important signals, 
+reset and clock, in the sequential circuit. 
+
+The reset signal is either active-high or active-low status and the circuit status transition can occur 
+at either clock rising-edge or falling-edge. 
+
+Flip-Flop is a basic component of the sequential circuits.
